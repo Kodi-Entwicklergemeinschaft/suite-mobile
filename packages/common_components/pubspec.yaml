@@ -1,0 +1,44 @@
+name: common_components
+description: "Reusable branded UI components using theme package"
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+  flutter: ">=3.38.0"
+
+resolution: workspace
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  theme:
+    path: ../theme
+
+  locale:
+    path: ../locale
+
+  shimmer: ^3.0.0
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.10+1
+  webview_flutter: ^4.13.1
+  device_info_plus: ^12.3.0
+  android_id: ^0.5.1
+  flutter_html: ^3.0.0
+  connectivity_plus: ^7.0.0
+  flutter_image_compress: ^2.4.0
+  add_2_calendar: ^3.0.1
+  share_plus: ^10.1.4
+  device_calendar: ^4.3.3
+  permission_handler: ^12.0.1
+  url_launcher: ^6.3.2
+  pdfx: ^2.8.0
+  auto_hyphenating_text: ^0.3.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+

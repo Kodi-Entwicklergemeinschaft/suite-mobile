@@ -1,0 +1,180 @@
+{
+  "success": true,
+  "data": {
+    "home": [
+      {
+        "id": "e7c0cbf5-f37e-4c30-a7a2-24cfa9cebe26",
+        "instanceId": "019e3f65-423e-7479-8189-8d307afa8b80",
+        "slug": "header_image",
+        "visible": true,
+        "position": 2,
+        "data": {
+          "label": "App Header Image",
+          "description": "Application branding and logo display",
+          "image": "YOUR_IMAGE_URL"
+        }
+      },
+      {
+        "id": "d005459e-a917-402a-ab4d-e3d352b41e5b",
+        "instanceId": "019e3f65-423e-7479-8189-927432f6dab7",
+        "slug": "search_bar",
+        "visible": true,
+        "position": 3,
+        "data": {
+          "label": "Search Bar",
+          "description": "Global search functionality"
+        }
+      },
+      {
+        "id": "99285869-da18-45e9-b20d-59b9b0106b88",
+        "instanceId": "019e3f65-423e-7479-8189-9afead6f473d",
+        "slug": "quick_actions",
+        "visible": true,
+        "position": 5,
+        "data": {
+          "label": "Quick Actions",
+          "description": "Quick access shortcuts to services",
+          "items": [
+            {
+              "id": "019c22d2-40be-72ff-b42c-651fadfff483",
+              "label": "News",
+              "subtitle": "News",
+              "description": "News is the ",
+              "icon": "YOUR_IMAGE_URL",
+              "image": "YOUR_IMAGE_URL",
+              "titleBackgroundColor": "#9b8c8c",
+              "descriptionBackgroundColor": "#b09292",
+              "action": {
+                "type": "category",
+                "config": {
+                  "view": "horizontal",
+                  "category": "news",
+                  "requireLogin": false,
+                  "requireEndDate": false,
+                  "requireStartDate": false
+                },
+                "target": "category"
+              }
+            },
+            {
+              "id": "019c22d2-40c0-729a-8aaf-113cbfa3d824",
+              "label": "Events",
+              "subtitle": "Events",
+              "description": "Following are events",
+              "icon": "YOUR_IMAGE_URL",
+              "image": "YOUR_IMAGE_URL",
+              "titleBackgroundColor": "#322f2f",
+              "descriptionBackgroundColor": "#131111",
+              "action": {
+                "type": "category",
+                "config": {
+                  "view": "horizontal",
+                  "category": "events",
+                  "requireLogin": false,
+                  "requireEndDate": true,
+                  "requireStartDate": true
+                },
+                "target": "category"
+              }
+            },
+            {
+              "id": "74a87726-78a4-4434-8bd1-9213ef383a56",
+              "label": "Contact",
+              "subtitle": "Get in touch",
+              "description": "Contact",
+              "icon": "YOUR_IMAGE_URL",
+              "image": "YOUR_IMAGE_URL",
+              "titleBackgroundColor": null,
+              "descriptionBackgroundColor": null,
+              "action": {
+                "type": "feature",
+                "config": { "category": "contact", "requireLogin": false },
+                "target": "feature_contact"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "40609475-4675-4cfc-9115-9d807244ffbb",
+        "instanceId": "019ef493-19e9-75b6-b8a2-ace3263f60aa",
+        "slug": "content_feed",
+        "visible": true,
+        "position": 7,
+        "data": {
+          "label": "News",
+          "description": "",
+          "serviceId": "019c22d2-40be-72ff-b42c-651fadfff483",
+          "category": "news",
+          "title": "News",
+          "subtitle": "News",
+          "source": "news",
+          "icon": "YOUR_IMAGE_URL",
+          "image": "YOUR_IMAGE_URL",
+          "action": {
+            "type": "category",
+            "config": {
+              "view": "horizontal",
+              "category": "news",
+              "requireLogin": false,
+              "requireEndDate": false,
+              "requireStartDate": false
+            },
+            "target": "category"
+          },
+          "limit": 10
+        }
+      },
+      {
+        "id": "4ca71105-c1f8-4937-a18c-21267583443f",
+        "instanceId": "019ef493-19e9-75b6-b8a2-b0ed370e0638",
+        "slug": "partners",
+        "visible": true,
+        "position": 8,
+        "data": {
+          "label": "",
+          "description": "",
+          "items": [
+            {
+              "id": "019ef47f-25a3-731d-b68f-a60cfbb6535f",
+              "label": "Funding Partners",
+              "image": "YOUR_IMAGE_URL",
+              "action": {
+                "type": "url_webview",
+                "config": { "url": "", "requireLogin": false }
+              }
+            },
+            {
+              "id": "019ef481-3f04-741a-b85e-6810ed79cb25",
+              "label": "Funding Partners",
+              "image": "YOUR_IMAGE_URL",
+              "action": {
+                "type": "url_webview",
+                "config": {
+                  "url": "https://www.google.com",
+                  "requireLogin": false
+                }
+              }
+            },
+            {
+              "id": "019ef485-b5b5-72c9-9641-35bc5a567dbc",
+              "label": "Funding Partners",
+              "image": "YOUR_IMAGE_URL",
+              "action": {
+                "type": "url_webview",
+                "config": {
+                  "url": "https://www.google.com",
+                  "requireLogin": false
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "message": "Homepage configuration retrieved successfully",
+  "timestamp": "2026-06-24T06:27:16.976Z",
+  "path": "/api/app-config/homepage",
+  "statusCode": 200
+}

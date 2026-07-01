@@ -1,0 +1,462 @@
+{
+  "success": true,
+  "data": {
+    "home": [
+      {
+        "id": "019c5733-0001-0000-0000-000000000001",
+        "slug": "appicon_image",
+        "visible": true,
+        "loginRequired": false,
+        "data": {
+          "label": "App Icon",
+          "description": "Application icon display",
+          "image": "YOUR_APP_ICON_URL"
+        }
+      },
+      {
+        "id": "019c5733-0001-0000-0000-000000000002",
+        "slug": "header_image",
+        "visible": true,
+        "loginRequired": false,
+        "data": {
+          "label": "App Header Image",
+          "description": "Application branding and logo display",
+          "image": "YOUR_HEADER_IMAGE_URL"
+        }
+      },
+      {
+        "id": "019c5733-0001-0000-0000-000000000003",
+        "slug": "search_bar",
+        "visible": true,
+        "loginRequired": false,
+        "data": {
+          "label": "Search Bar",
+          "description": "Global search functionality"
+        }
+      },
+      {
+        "id": "019c5733-0001-0000-0000-000000000004",
+        "slug": "nav_services",
+        "visible": true,
+        "loginRequired": false,
+        "data": {
+          "label": "Navigation Services",
+          "items": [
+            {
+              "id": "nav-001",
+              "label": "HOME",
+              "image": "YOUR_NAV_IMAGE_URL",
+              "action": {
+                "type": "feature",
+                "target": "experience",
+                "config": { "requireLogin": false }
+              }
+            },
+            {
+              "id": "nav-002",
+              "label": "Discover",
+              "image": "YOUR_NAV_IMAGE_URL",
+              "action": {
+                "type": "feature",
+                "target": "discover",
+                "config": { "requireLogin": false }
+              }
+            },
+            {
+              "id": "nav-003",
+              "label": "Events",
+              "image": "YOUR_NAV_IMAGE_URL",
+              "action": {
+                "type": "category",
+                "target": "category",
+                "config": { "category": "events", "view": "horizontal", "requireLogin": false }
+              }
+            },
+            {
+              "id": "nav-004",
+              "label": "Profile",
+              "image": "YOUR_NAV_IMAGE_URL",
+              "action": {
+                "type": "feature",
+                "target": "profile",
+                "config": { "requireLogin": true }
+              }
+            },
+            {
+              "id": "nav-005",
+              "label": "Bike Tours",
+              "image": "YOUR_NAV_IMAGE_URL",
+              "action": {
+                "type": "category",
+                "target": "category",
+                "config": { "category": "culture-bike-tours", "view": "horizontal", "requireLogin": false }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "019c5733-0001-0000-0000-000000000005",
+        "slug": "content_slider_v4",
+        "visible": true,
+        "loginRequired": false,
+        "data": {
+          "label": "Featured Content",
+          "limit": 10,
+          "items": [
+            {
+              "id": "cs4-001",
+              "label": "YOUR_SLIDER_LABEL_1",
+              "subtitle": "YOUR_SLIDER_SUBTITLE_1",
+              "description": "YOUR_SLIDER_DESCRIPTION_1",
+              "image": "YOUR_SLIDER_IMAGE_URL",
+              "titleBackgroundColor": "#7C3AED",
+              "action": {
+                "type": "listing",
+                "target": "listing",
+                "config": { "category": "events", "requireLogin": false }
+              }
+            },
+            {
+              "id": "cs4-002",
+              "label": "YOUR_SLIDER_LABEL_2",
+              "subtitle": "YOUR_SLIDER_SUBTITLE_2",
+              "description": "YOUR_SLIDER_DESCRIPTION_2",
+              "image": "YOUR_SLIDER_IMAGE_URL",
+              "titleBackgroundColor": "#00A1A3",
+              "action": {
+                "type": "category",
+                "target": "category",
+                "config": { "category": "culture-bike-tours", "view": "horizontal", "requireLogin": false }
+              }
+            },
+            {
+              "id": "cs4-003",
+              "label": "YOUR_SLIDER_LABEL_3",
+              "subtitle": "YOUR_SLIDER_SUBTITLE_3",
+              "description": "YOUR_SLIDER_DESCRIPTION_3",
+              "image": "YOUR_SLIDER_IMAGE_URL",
+              "titleBackgroundColor": "#E30059",
+              "action": {
+                "type": "category",
+                "target": "category",
+                "config": { "category": "shopping", "view": "grid", "requireLogin": false }
+              }
+            },
+            {
+              "id": "cs4-004",
+              "label": "YOUR_SLIDER_LABEL_4",
+              "subtitle": "YOUR_SLIDER_SUBTITLE_4",
+              "description": "YOUR_SLIDER_DESCRIPTION_4",
+              "image": "YOUR_SLIDER_IMAGE_URL",
+              "titleBackgroundColor": "#728ABB",
+              "action": {
+                "type": "category",
+                "target": "category",
+                "config": { "category": "culture", "view": "horizontal", "requireLogin": false }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "019c5733-0001-0000-0000-000000000006",
+        "slug": "content_slider_v5",
+        "visible": true,
+        "loginRequired": false,
+        "data": {
+          "label": "Events",
+          "title": "Events",
+          "subtitle": "What's on",
+          "serviceId": "019c22d2-40c0-729a-8aaf-113cbfa3d824",
+          "category": "events",
+          "source": "events",
+          "limit": 10,
+          "filters": {
+            "requireLatLong": false,
+            "requireEventStart": true
+          }
+        }
+      },
+      {
+        "id": "019c5733-0001-0000-0000-000000000007",
+        "slug": "content_slider_v6",
+        "visible": true,
+        "loginRequired": false,
+        "data": {
+          "label": "City Highlights",
+          "limit": 10,
+          "items": [
+            {
+              "id": "cs6-001",
+              "label": "YOUR_HIGHLIGHT_LABEL_1",
+              "subtitle": "YOUR_HIGHLIGHT_SUBTITLE_1",
+              "image": "YOUR_SLIDER_IMAGE_URL",
+              "titleBackgroundColor": "#0C91CF",
+              "action": {
+                "type": "webview",
+                "target": "webview",
+                "config": { "url": "https://example.com", "toolbar": true, "requireLogin": false }
+              }
+            },
+            {
+              "id": "cs6-002",
+              "label": "YOUR_HIGHLIGHT_LABEL_2",
+              "subtitle": "YOUR_HIGHLIGHT_SUBTITLE_2",
+              "image": "YOUR_SLIDER_IMAGE_URL",
+              "titleBackgroundColor": "#00223F",
+              "action": {
+                "type": "webview",
+                "target": "webview",
+                "config": { "url": "https://example.com", "toolbar": true, "requireLogin": false }
+              }
+            },
+            {
+              "id": "cs6-003",
+              "label": "YOUR_HIGHLIGHT_LABEL_3",
+              "subtitle": "YOUR_HIGHLIGHT_SUBTITLE_3",
+              "image": "YOUR_SLIDER_IMAGE_URL",
+              "titleBackgroundColor": "#0EA5E9",
+              "action": {
+                "type": "webview",
+                "target": "webview",
+                "config": { "url": "https://example.com", "toolbar": true, "requireLogin": false }
+              }
+            },
+            {
+              "id": "cs6-004",
+              "label": "YOUR_HIGHLIGHT_LABEL_4",
+              "subtitle": "YOUR_HIGHLIGHT_SUBTITLE_4",
+              "image": "YOUR_SLIDER_IMAGE_URL",
+              "titleBackgroundColor": "#E30059",
+              "action": {
+                "type": "webview",
+                "target": "webview",
+                "config": { "url": "https://example.com", "toolbar": true, "requireLogin": false }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "019c5733-0001-0000-0000-000000000008",
+        "slug": "sub_category_slider",
+        "visible": true,
+        "loginRequired": false,
+        "data": {
+          "label": "Shopping",
+          "title": "Shopping",
+          "subtitle": "Over 400 stores",
+          "serviceId": "019c22d2-40c0-729a-8aaf-113cbfa3d826",
+          "category": "shopping",
+          "source": "shopping",
+          "limit": 10,
+          "titleBackgroundColor": "#E30059"
+        }
+      },
+      {
+        "id": "019c5733-0001-0000-0000-000000000009",
+        "slug": "sub_category_slider",
+        "visible": true,
+        "loginRequired": false,
+        "data": {
+          "label": "Eating & Drinking",
+          "title": "Eating & Drinking",
+          "subtitle": "Best spots in town",
+          "serviceId": "019c22d2-40c0-729a-8aaf-113cbfa3d829",
+          "category": "eating-and-drinking-2",
+          "source": "eating-and-drinking-2",
+          "limit": 10,
+          "titleBackgroundColor": "#F97316"
+        }
+      },
+      {
+        "id": "019c5733-0001-0000-0000-000000000010",
+        "slug": "service_hub_card",
+        "visible": true,
+        "loginRequired": false,
+        "data": {
+          "label": "Services",
+          "limit": 10,
+          "items": [
+            {
+              "id": "sh-001",
+              "label": "Tours",
+              "image": "YOUR_SERVICE_IMAGE_URL",
+              "titleBackgroundColor": "#00A1A3",
+              "action": {
+                "type": "category",
+                "target": "category",
+                "config": {
+                  "category": "tours",
+                  "view": "horizontal",
+                  "requireLogin": false,
+                  "children": [
+                    {
+                      "label": "Bike Tours",
+                      "image": "YOUR_SERVICE_IMAGE_URL",
+                      "titleBackgroundColor": "#00A1A3",
+                      "action": {
+                        "type": "category",
+                        "target": "category",
+                        "config": { "category": "culture-bike-tours", "view": "horizontal", "requireLogin": false }
+                      }
+                    },
+                    {
+                      "label": "Walking Tours",
+                      "image": "YOUR_SERVICE_IMAGE_URL",
+                      "titleBackgroundColor": "#00A1A3",
+                      "action": {
+                        "type": "category",
+                        "target": "category",
+                        "config": { "category": "tours", "view": "horizontal", "requireLogin": false }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "sh-002",
+              "label": "Shopping",
+              "image": "YOUR_SERVICE_IMAGE_URL",
+              "titleBackgroundColor": "#E30059",
+              "action": {
+                "type": "category",
+                "target": "category",
+                "config": {
+                  "category": "shopping",
+                  "view": "grid",
+                  "requireLogin": false,
+                  "children": [
+                    {
+                      "label": "Fashion",
+                      "image": "YOUR_SERVICE_IMAGE_URL",
+                      "titleBackgroundColor": "#E30059",
+                      "action": {
+                        "type": "category",
+                        "target": "category",
+                        "config": { "category": "shopping-fashion", "view": "grid", "requireLogin": false }
+                      }
+                    },
+                    {
+                      "label": "Food & Drink",
+                      "image": "YOUR_SERVICE_IMAGE_URL",
+                      "titleBackgroundColor": "#E30059",
+                      "action": {
+                        "type": "category",
+                        "target": "category",
+                        "config": { "category": "eating-and-drinking-2", "view": "grid", "requireLogin": false }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "sh-003",
+              "label": "Culture",
+              "image": "YOUR_SERVICE_IMAGE_URL",
+              "titleBackgroundColor": "#728ABB",
+              "action": {
+                "type": "category",
+                "target": "category",
+                "config": {
+                  "category": "culture",
+                  "view": "horizontal",
+                  "requireLogin": false,
+                  "children": [
+                    {
+                      "label": "Museums",
+                      "image": "YOUR_SERVICE_IMAGE_URL",
+                      "titleBackgroundColor": "#728ABB",
+                      "action": {
+                        "type": "category",
+                        "target": "category",
+                        "config": { "category": "culture-museum", "view": "horizontal", "requireLogin": false }
+                      }
+                    },
+                    {
+                      "label": "Music & Theater",
+                      "image": "YOUR_SERVICE_IMAGE_URL",
+                      "titleBackgroundColor": "#728ABB",
+                      "action": {
+                        "type": "category",
+                        "target": "category",
+                        "config": { "category": "culture-music", "view": "horizontal", "requireLogin": false }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "019c5733-0001-0000-0000-000000000011",
+        "slug": "tile_slider",
+        "visible": true,
+        "loginRequired": false,
+        "data": {
+          "label": "Quick Links",
+          "limit": 10,
+          "items": [
+            {
+              "id": "ts-001",
+              "label": "Parking",
+              "subtitle": "Find a spot",
+              "image": "YOUR_TILE_IMAGE_URL",
+              "titleBackgroundColor": "#0C91CF",
+              "action": {
+                "type": "feature",
+                "target": "parking",
+                "config": { "requireLogin": false }
+              }
+            },
+            {
+              "id": "ts-002",
+              "label": "Events Calendar",
+              "subtitle": "What's on",
+              "image": "YOUR_TILE_IMAGE_URL",
+              "titleBackgroundColor": "#7C3AED",
+              "action": {
+                "type": "category",
+                "target": "category",
+                "config": { "category": "events", "view": "horizontal", "requireLogin": false }
+              }
+            },
+            {
+              "id": "ts-003",
+              "label": "City Info",
+              "subtitle": "Need to know",
+              "image": "YOUR_TILE_IMAGE_URL",
+              "titleBackgroundColor": "#00223F",
+              "action": {
+                "type": "webview",
+                "target": "webview",
+                "config": { "url": "https://example.com", "toolbar": true, "requireLogin": false }
+              }
+            },
+            {
+              "id": "ts-004",
+              "label": "Map",
+              "subtitle": "Explore the area",
+              "image": "YOUR_TILE_IMAGE_URL",
+              "titleBackgroundColor": "#10B981",
+              "action": {
+                "type": "feature",
+                "target": "map",
+                "config": { "requireLogin": false }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "message": "Homepage configuration retrieved successfully",
+  "timestamp": "2026-06-30T00:00:00.000Z",
+  "path": "/api/app-config/homepage",
+  "statusCode": 200
+}

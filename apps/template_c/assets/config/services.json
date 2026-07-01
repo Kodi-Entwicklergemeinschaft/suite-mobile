@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "data": {
+    "items": [
+      {
+        "id": "service-001",
+        "slug": "sample-service",
+        "serviceTemplateId": "template-url-webview",
+        "templateType": "url_webview",
+        "serviceType": "internal",
+        "parentId": null,
+        "order": 1,
+        "title": "Sample Service",
+        "label": "Sample Service",
+        "subtitle": "A sample service entry",
+        "description": "Replace this with your actual service",
+        "icon": "YOUR_IMAGE_URL",
+        "image": "YOUR_IMAGE_URL",
+        "titleBackgroundColor": "#3498DB",
+        "descriptionBackgroundColor": "#FFFFFF",
+        "action": {
+          "type": "url_webview",
+          "config": {
+            "url": "https://www.example.com",
+            "requireLogin": false
+          },
+          "target": "sample-service"
+        }
+      }
+    ],
+    "meta": {
+      "page": 1,
+      "limit": 10,
+      "total": 1,
+      "totalPages": 1,
+      "hasNextPage": false,
+      "hasPreviousPage": false
+    }
+  },
+  "message": "Services retrieved successfully",
+  "timestamp": "2026-06-29T00:00:00.000Z",
+  "path": "/api/app-config/services",
+  "statusCode": 200
+}

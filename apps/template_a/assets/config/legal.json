@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": [
+    {
+      "key": "privacy_policy",
+      "title": "Privacy Policy",
+      "action": {
+        "type": "web",
+        "config": {
+          "url": "https://example.com/privacy"
+        }
+      }
+    },
+    {
+      "key": "terms_of_service",
+      "title": "Terms of Service",
+      "action": {
+        "type": "web",
+        "config": {
+          "url": "https://example.com/terms"
+        }
+      }
+    },
+    {
+      "key": "imprint",
+      "title": "Imprint",
+      "action": {
+        "type": "web",
+        "config": {
+          "url": "https://example.com/imprint"
+        }
+      }
+    }
+  ],
+  "message": "Legal configuration retrieved successfully",
+  "timestamp": "2026-01-01T00:00:00.000Z",
+  "path": "/api/app-config/legal",
+  "statusCode": 200
+}

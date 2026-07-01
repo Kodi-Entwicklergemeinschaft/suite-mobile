@@ -1,0 +1,114 @@
+{
+  "success": true,
+  "data": {
+    "home": [
+      {
+        "id": "home-kultur-slider-001",
+        "instanceId": "019f02f2-b4f6-757b-9c64-dacde908c1b3",
+        "slug": "content_slider_v2",
+        "visible": true,
+        "position": 1,
+        "data": {
+          "label": "Kultur & Kunst",
+          "description": "Cultural events in your city",
+          "subCategory": "kultur",
+          "source": "listings",
+          "limit": 10,
+          "action": {
+            "type": "category",
+            "target": "subcategory",
+            "config": {
+              "subcategory": "kultur"
+            }
+          }
+        }
+      },
+      {
+        "id": "home-musik-slider-001",
+        "instanceId": "019f03be-ab73-72ba-9bef-36a28a549e07",
+        "slug": "content_slider_v3",
+        "visible": true,
+        "position": 2,
+        "data": {
+          "label": "Musik",
+          "description": "Music events in your city",
+          "subCategory": "musik",
+          "source": "listings",
+          "limit": 10,
+          "action": {
+            "type": "category",
+            "target": "subcategory",
+            "config": {
+              "subcategory": "musik"
+            }
+          }
+        }
+      },
+      {
+        "id": "home-kultur-nearby-slider-001",
+        "instanceId": "019f03bf-37d0-71f5-b04b-6122021a6e39",
+        "slug": "content_slider_v2",
+        "visible": true,
+        "position": 3,
+        "data": {
+          "label": "Kultur in deiner Nähe",
+          "description": "Kulturelle Events in deiner Umgebung",
+          "subCategory": "kultur",
+          "source": "listings",
+          "limit": 10,
+          "filters": [
+            {
+              "key": "location",
+              "apiParams": [
+                { "name": "latitude", "source": "device" },
+                { "name": "longitude", "source": "device" },
+                { "name": "radiusMeters", "value": 50000, "source": "static" }
+              ]
+            }
+          ],
+          "action": {
+            "type": "category",
+            "target": "subcategory",
+            "config": {
+              "subcategory": "kultur"
+            }
+          }
+        }
+      },
+      {
+        "id": "home-kultur-new-slider-001",
+        "instanceId": "019f0369-3a40-706a-81fc-b55653e6936a",
+        "slug": "content_slider_v3",
+        "visible": true,
+        "position": 4,
+        "data": {
+          "label": "Neu in Kultur",
+          "description": "Neueste Kulturveranstaltungen",
+          "subCategory": "kultur",
+          "source": "listings",
+          "limit": 10,
+          "filters": [
+            {
+              "key": "sort",
+              "apiParams": [
+                { "name": "sortBy", "value": "createdAt", "source": "static" },
+                { "name": "sortOrder", "value": "desc", "source": "static" }
+              ]
+            }
+          ],
+          "action": {
+            "type": "category",
+            "target": "subcategory",
+            "config": {
+              "subcategory": "kultur"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "message": "Homepage configuration retrieved successfully",
+  "timestamp": "2026-06-29T06:14:56.000Z",
+  "path": "/api/app-config/homepage",
+  "statusCode": 200
+}

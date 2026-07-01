@@ -1,0 +1,16 @@
+{
+  "data": {
+    "title": "Find Your next\n Experience in Your City",
+    "colors": {
+      "primaryColor": "#0C91CF",
+      "secondaryColor": "#00223F"
+    },
+    "assets": {
+      "logoUrl": "",
+      "splashUrl": ""
+    },
+    "font": {
+      "fontFamily": "Inter"
+    }
+  }
+}

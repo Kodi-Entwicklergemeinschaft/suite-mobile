@@ -1,0 +1,141 @@
+{
+  "success": true,
+  "data": {
+    "items": [
+      {
+        "id": "019c504c-580d-7149-beec-4de1aa5c0d39",
+        "slug": "wirtschaftsstandort-fichtelgebirge",
+        "serviceTemplateId": "06b6fbf5-2aa2-4a6b-a914-2b7b4f675694",
+        "templateType": "url_webview",
+        "serviceType": "internal",
+        "parentId": null,
+        "order": 1,
+        "title": "Regional Business Location",
+        "label": "Regional Business Location",
+        "subtitle": "Economic region information",
+        "description": "Your regional business hub",
+        "icon": "YOUR_IMAGE_URL",
+        "image": "YOUR_IMAGE_URL",
+        "titleBackgroundColor": "#0F62FE",
+        "descriptionBackgroundColor": "#FFFFFF",
+        "action": {
+          "type": "url_webview",
+          "config": {
+            "url": "https://www.google.com",
+            "requireLogin": false
+          },
+          "target": "wirtschaftsstandort-fichtelgebirge"
+        }
+      },
+      {
+        "id": "019c5051-5641-732b-84a4-7a3db233dc88",
+        "slug": "finanzierung-and-forderungen",
+        "serviceTemplateId": "06b6fbf5-2aa2-4a6b-a914-2b7b4f675694",
+        "templateType": "url_webview",
+        "serviceType": "internal",
+        "parentId": null,
+        "order": 3,
+        "title": "Financing & Grants",
+        "label": "Financing & Grants",
+        "subtitle": "Funding opportunities",
+        "description": "Financing & Grants",
+        "icon": "YOUR_IMAGE_URL",
+        "image": "YOUR_IMAGE_URL",
+        "titleBackgroundColor": "#0F62FE",
+        "descriptionBackgroundColor": "#FFFFFF",
+        "action": {
+          "type": "url_webview",
+          "config": {
+            "url": "https://www.google.com",
+            "requireLogin": false
+          },
+          "target": "finanzierung-and-forderungen"
+        }
+      },
+      {
+        "id": "019c5067-3de6-73ad-ba89-c506d566fe1c",
+        "slug": "unternehmensverzeichnis",
+        "serviceTemplateId": "06b6fbf5-2aa2-4a6b-a914-2b7b4f675694",
+        "templateType": "url_webview",
+        "serviceType": "internal",
+        "parentId": null,
+        "order": 4,
+        "title": "Business Directory",
+        "label": "Business Directory",
+        "subtitle": "Browse local companies",
+        "description": "Business Directory",
+        "icon": "YOUR_IMAGE_URL",
+        "image": "YOUR_IMAGE_URL",
+        "titleBackgroundColor": "#0F62FE",
+        "descriptionBackgroundColor": "#FFFFFF",
+        "action": {
+          "type": "url_webview",
+          "config": {
+            "url": "https://www.google.com",
+            "requireLogin": false
+          },
+          "target": "unternehmensverzeichnis"
+        }
+      },
+      {
+        "id": "019c5064-c59a-71e5-b5c6-4fdc9c071ef7",
+        "slug": "energie-and-macher-region",
+        "serviceTemplateId": "06b6fbf5-2aa2-4a6b-a914-2b7b4f675694",
+        "templateType": "url_webview",
+        "serviceType": "internal",
+        "parentId": null,
+        "order": 5,
+        "title": "Energy & Macher Region",
+        "label": "Energy & Macher Region",
+        "subtitle": "Energy initiatives",
+        "description": "A Region of Energy and Doers",
+        "icon": "YOUR_IMAGE_URL",
+        "image": "YOUR_IMAGE_URL",
+        "titleBackgroundColor": "#0F62FE",
+        "descriptionBackgroundColor": "#FFFFFF",
+        "action": {
+          "type": "url_webview",
+          "config": {
+            "url": "https://www.google.com",
+            "requireLogin": false
+          },
+          "target": "energie-and-macher-region"
+        }
+      },
+      {
+        "id": "74a87726-78a4-4434-8bd1-9213ef383a56",
+        "slug": "contact",
+        "serviceTemplateId": "f7b106f5-105b-4387-81cd-ae8405f72f8a",
+        "templateType": "feature",
+        "serviceType": "internal",
+        "parentId": null,
+        "order": 6,
+        "title": "Contact",
+        "label": "Contact",
+        "subtitle": "Get in touch",
+        "description": "Contact",
+        "icon": "YOUR_IMAGE_URL",
+        "image": "YOUR_IMAGE_URL",
+        "titleBackgroundColor": null,
+        "descriptionBackgroundColor": null,
+        "action": {
+          "type": "feature",
+          "config": { "category": "contact", "requireLogin": false },
+          "target": "feature_contact"
+        }
+      }
+    ],
+    "meta": {
+      "page": 1,
+      "limit": 10,
+      "total": 5,
+      "totalPages": 1,
+      "hasNextPage": false,
+      "hasPreviousPage": false
+    }
+  },
+  "message": "Services retrieved successfully",
+  "timestamp": "2026-06-24T06:27:17.526Z",
+  "path": "/api/app-config/services?page=1&resolveUserLocality=true",
+  "statusCode": 200
+}

@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "data": {
+    "colors": {
+      "primaryColor": "#3498DB",
+      "secondaryColor": "#FFFFFF"
+    },
+    "assets": {
+      "logoUrl": "YOUR_IMAGE_URL",
+      "splashUrl": "YOUR_IMAGE_URL",
+      "contactUsUrl": "YOUR_IMAGE_URL",
+      "fallbackUrl": ""
+    },
+    "font": {
+      "fontFamily": "YOUR_FONT_FAMILY",
+      "secondaryFontFamily": "YOUR_FONT_FAMILY"
+    },
+    "templateId": "template-c",
+    "title": "Your App",
+    "description": "Your app description"
+  },
+  "message": "Theme configuration retrieved successfully",
+  "timestamp": "2026-06-29T00:00:00.000Z",
+  "path": "/api/app-config/theme",
+  "statusCode": 200
+}

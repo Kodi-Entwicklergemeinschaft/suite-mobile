@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": [
+    {
+      "key": "privacy-policy",
+      "title": "Privacy Policy",
+      "action": {
+        "type": "url_webview",
+        "config": {
+          "url": "https://www.google.com"
+        }
+      }
+    },
+    {
+      "key": "terms-of-use",
+      "title": "Terms of Service",
+      "action": {
+        "type": "url_webview",
+        "config": {
+          "url": "https://www.google.com"
+        }
+      }
+    },
+    {
+      "key": "imprint",
+      "title": "Legal Notice",
+      "action": {
+        "type": "url_webview",
+        "config": {
+          "url": "https://www.google.com"
+        }
+      }
+    }
+  ],
+  "message": "Legal config fetched successfully",
+  "timestamp": "2026-06-24T07:28:04.327Z",
+  "path": "/api/app-config/legal",
+  "statusCode": 200
+}

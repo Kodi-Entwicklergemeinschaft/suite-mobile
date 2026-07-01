@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": "019c5733-d75c-77ac-9865-3c20c5d43a43",
+      "slug": "experience",
+      "label": "Home",
+      "iconUrl": "",
+      "isEnabled": true,
+      "action": {
+        "type": "feature",
+        "config": {
+          "requireLogin": false
+        },
+        "target": "experience"
+      }
+    },
+    {
+      "id": "019c5734-3523-705a-9f32-7e986182c22b",
+      "slug": "discover",
+      "label": "Discover",
+      "iconUrl": "",
+      "isEnabled": true,
+      "action": {
+        "type": "feature",
+        "config": {
+          "requireLogin": false
+        },
+        "target": "discover"
+      }
+    },
+    {
+      "id": "019c572c-3626-72ba-be11-af3b34e2cdc9",
+      "slug": "service_hub",
+      "label": "Events",
+      "iconUrl": "",
+      "isEnabled": true,
+      "action": {
+        "type": "category",
+        "config": {
+          "category": "events",
+          "view": "horizontal",
+          "requireLogin": false
+        },
+        "target": "category"
+      }
+    },
+    {
+      "id": "019c572c-3626-72ba-be11-af3b34e2cdc8",
+      "slug": "profile",
+      "label": "Profile",
+      "iconUrl": "",
+      "isEnabled": true,
+      "action": {
+        "type": "feature",
+        "config": {
+          "requireLogin": false
+        },
+        "target": "profile"
+      }
+    }
+  ],
+  "message": "Bottom-Navigation-Konfiguration erfolgreich abgerufen",
+  "timestamp": "2026-03-18T00:00:00.000Z",
+  "path": "/api/app-config/bottom-nav",
+  "statusCode": 200
+}

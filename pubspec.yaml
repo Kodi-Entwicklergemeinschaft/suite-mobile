@@ -1,0 +1,60 @@
+name: suite_mobile
+description: "Root config file"
+version: 0.0.1
+publish_to: none
+
+workspace:
+  - packages/network
+  - packages/routing
+  - packages/preference_manager
+  - packages/theme
+  - packages/common_components
+  - packages/locale
+  - apps/template_a
+  - apps/template_b
+  - apps/template_c
+
+environment:
+  sdk: ^3.10.0-290.4.beta
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_riverpod: ^3.1.0
+  flutter_screenutil: ^5.9.3
+  dartz: ^0.10.1
+  go_router: ^17.0.1
+  dio: ^5.9.0
+  intl: 0.20.2
+  url_launcher: ^6.3.2
+  add_2_calendar: ^3.0.1
+  share_plus: ^10.1.4
+  device_calendar: ^4.3.3
+  permission_handler: ^12.0.1
+  flutter_dotenv: ^6.0.0
+  path: ^1.9.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  melos: ^7.3.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.13
+
+dependency_overrides:
+  analyzer: "6.4.1"
+
+melos:
+  scripts:
+    run:app:
+      description: "Run an app locally"
+      run: |
+        fvm dart run melos bootstrap --scope="$APP_NAME"
+        cd apps
+        cd "$APP_NAME"
+        fvm flutter run

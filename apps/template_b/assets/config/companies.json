@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": "019c75da-6d2c-716b-8a46-08755b9a5016",
+      "name": "XYZ Company 1",
+      "image": "YOUR_IMAGE_URL",
+      "companyProfileUrl": "https://www.google.com"
+    },
+    {
+      "id": "019ed978-4595-705e-8bbb-59d6e505f667",
+      "name": "XYZ Company 2",
+      "image": "YOUR_IMAGE_URL",
+      "companyProfileUrl": "https://www.google.com"
+    },
+    {
+      "id": "019e1d0b-d099-726c-8291-7f3f764ab566",
+      "name": "XYZ Company 3",
+      "image": "YOUR_IMAGE_URL",
+      "companyProfileUrl": "https://www.google.com"
+    },
+    {
+      "id": "019ee0cf-b3ec-749d-962f-fb2da033dbb9",
+      "name": "XYZ Company 4",
+      "image": "YOUR_IMAGE_URL",
+      "companyProfileUrl": "https://www.google.com"
+    },
+    {
+      "id": "019cb365-ce74-72ce-ace8-be700327c609",
+      "name": "XYZ Company 5",
+      "image": "YOUR_IMAGE_URL",
+      "companyProfileUrl": "https://www.google.com"
+    },
+    {
+      "id": "019ed4fd-a77a-76cf-b583-69b2526a346d",
+      "name": "XYZ Company 6",
+      "image": "YOUR_IMAGE_URL",
+      "companyProfileUrl": "https://www.google.com"
+    },
+    {
+      "id": "019ecb1a-6fa9-76f2-8b64-fc6e45bb0cb9",
+      "name": "XYZ Company 7",
+      "image": "YOUR_IMAGE_URL",
+      "companyProfileUrl": "https://www.google.com"
+    },
+    {
+      "id": "019c7661-24c1-7335-8c28-b0bca641248e",
+      "name": "XYZ Company 8",
+      "image": "YOUR_IMAGE_URL",
+      "companyProfileUrl": "https://www.google.com"
+    },
+    {
+      "id": "019eb5e0-8614-7238-8989-9e0a4b647a6c",
+      "name": "XYZ Company 9",
+      "image": "YOUR_IMAGE_URL",
+      "companyProfileUrl": "https://www.google.com"
+    },
+    {
+      "id": "019ed4cc-8c5c-74e8-8d3d-c1e07e904d3a",
+      "name": "XYZ Company 10",
+      "image": "YOUR_IMAGE_URL",
+      "companyProfileUrl": "https://www.google.com"
+    }
+  ],
+  "message": "Operation completed successfully",
+  "timestamp": "2026-06-24T08:19:09.792Z",
+  "path": "/api/business/job-matching/companies/random",
+  "statusCode": 200
+}

@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "data": {
+    "title": "Frequently Asked Questions",
+    "action": {
+      "type": "url_webview",
+      "config": {
+        "url": "https://www.google.com",
+        "requireLogin": false
+      }
+    }
+  },
+  "message": "FAQ fetched successfully",
+  "timestamp": "2026-06-24T06:27:17.380Z",
+  "path": "/api/support/faq",
+  "statusCode": 200
+}

@@ -1,0 +1,5 @@
+
+
+Map<String, dynamic> offlineFeatureRouteRegistry = {
+
+};

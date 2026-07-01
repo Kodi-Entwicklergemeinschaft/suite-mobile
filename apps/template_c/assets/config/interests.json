@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": "cat-001",
+      "slug": "events",
+      "title": "Events",
+      "icon": "YOUR_ICON_URL",
+      "children": [
+        {
+          "id": "sub-001",
+          "slug": "music",
+          "title": "Music",
+          "categoryId": "cat-001",
+          "icon": "YOUR_ICON_URL"
+        },
+        {
+          "id": "sub-002",
+          "slug": "sports",
+          "title": "Sports",
+          "categoryId": "cat-001",
+          "icon": "YOUR_ICON_URL"
+        },
+        {
+          "id": "sub-003",
+          "slug": "culture",
+          "title": "Culture",
+          "categoryId": "cat-001",
+          "icon": "YOUR_ICON_URL"
+        }
+      ]
+    },
+    {
+      "id": "cat-002",
+      "slug": "community",
+      "title": "Community",
+      "icon": "YOUR_ICON_URL",
+      "children": [
+        {
+          "id": "sub-004",
+          "slug": "volunteering",
+          "title": "Volunteering",
+          "categoryId": "cat-002",
+          "icon": "YOUR_ICON_URL"
+        },
+        {
+          "id": "sub-005",
+          "slug": "workshops",
+          "title": "Workshops",
+          "categoryId": "cat-002",
+          "icon": "YOUR_ICON_URL"
+        }
+      ]
+    }
+  ],
+  "message": "Interest config fetched successfully",
+  "timestamp": "2026-06-29T00:00:00.000Z",
+  "path": "/api/app-config/interests",
+  "statusCode": 200
+}

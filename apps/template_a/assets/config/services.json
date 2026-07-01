@@ -1,0 +1,153 @@
+{
+  "success": true,
+  "message": "Services configuration retrieved successfully",
+  "timestamp": "2026-06-30T00:00:00.000Z",
+  "data": {
+    "items": [
+      {
+        "id": "019c22d2-40c0-729a-8aaf-113cbfa3d820",
+        "slug": "service-1",
+        "label": "Service 1",
+        "title": "SERVICE_TITLE_1",
+        "subtitle": "SERVICE_SUBTITLE_1",
+        "description": "SERVICE_DESCRIPTION_1",
+        "image": "YOUR_SERVICE_IMAGE_URL",
+        "icon": "YOUR_ICON_URL",
+        "serviceType": "standard",
+        "titleBackgroundColor": "#00A1A3",
+        "descriptionBackgroundColor": "#E0F7F7",
+        "order": 1,
+        "action": {
+          "type": "category",
+          "target": "category",
+          "config": {
+            "category": "tours",
+            "view": "horizontal",
+            "requireLogin": false
+          }
+        }
+      },
+      {
+        "id": "019c22d2-40c0-729a-8aaf-113cbfa3d821",
+        "slug": "service-2",
+        "label": "Service 2",
+        "title": "SERVICE_TITLE_2",
+        "subtitle": "SERVICE_SUBTITLE_2",
+        "description": "SERVICE_DESCRIPTION_2",
+        "image": "YOUR_SERVICE_IMAGE_URL",
+        "icon": "YOUR_ICON_URL",
+        "serviceType": "standard",
+        "titleBackgroundColor": "#E30059",
+        "descriptionBackgroundColor": "#FFE4EF",
+        "order": 2,
+        "action": {
+          "type": "category",
+          "target": "category",
+          "config": {
+            "category": "shopping",
+            "view": "grid",
+            "requireLogin": false
+          }
+        }
+      },
+      {
+        "id": "019c22d2-40c0-729a-8aaf-113cbfa3d822",
+        "slug": "service-3",
+        "label": "Service 3",
+        "title": "SERVICE_TITLE_3",
+        "subtitle": "SERVICE_SUBTITLE_3",
+        "description": "SERVICE_DESCRIPTION_3",
+        "image": "YOUR_SERVICE_IMAGE_URL",
+        "icon": "YOUR_ICON_URL",
+        "serviceType": "standard",
+        "titleBackgroundColor": "#728ABB",
+        "descriptionBackgroundColor": "#EEF2FF",
+        "order": 3,
+        "action": {
+          "type": "category",
+          "target": "category",
+          "config": {
+            "category": "culture",
+            "view": "horizontal",
+            "requireLogin": false
+          }
+        }
+      },
+      {
+        "id": "019c22d2-40c0-729a-8aaf-113cbfa3d823",
+        "slug": "service-4",
+        "label": "Service 4",
+        "title": "SERVICE_TITLE_4",
+        "subtitle": "SERVICE_SUBTITLE_4",
+        "description": "SERVICE_DESCRIPTION_4",
+        "image": "YOUR_SERVICE_IMAGE_URL",
+        "icon": "YOUR_ICON_URL",
+        "serviceType": "standard",
+        "titleBackgroundColor": "#0EA5E9",
+        "descriptionBackgroundColor": "#E0F4FF",
+        "order": 4,
+        "action": {
+          "type": "feature",
+          "target": "discover",
+          "config": {
+            "requireLogin": false
+          }
+        }
+      },
+      {
+        "id": "019c22d2-40c0-729a-8aaf-113cbfa3d824",
+        "slug": "service-5",
+        "label": "Service 5",
+        "title": "SERVICE_TITLE_5",
+        "subtitle": "SERVICE_SUBTITLE_5",
+        "description": "SERVICE_DESCRIPTION_5",
+        "image": "YOUR_SERVICE_IMAGE_URL",
+        "icon": "YOUR_ICON_URL",
+        "serviceType": "standard",
+        "titleBackgroundColor": "#7C3AED",
+        "descriptionBackgroundColor": "#F3E8FF",
+        "order": 5,
+        "action": {
+          "type": "category",
+          "target": "category",
+          "config": {
+            "category": "events",
+            "view": "horizontal",
+            "requireLogin": false
+          }
+        }
+      },
+      {
+        "id": "019c22d2-40c0-729a-8aaf-113cbfa3d825",
+        "slug": "service-6",
+        "label": "Service 6",
+        "title": "SERVICE_TITLE_6",
+        "subtitle": "SERVICE_SUBTITLE_6",
+        "description": "SERVICE_DESCRIPTION_6",
+        "image": "YOUR_SERVICE_IMAGE_URL",
+        "icon": "YOUR_ICON_URL",
+        "serviceType": "standard",
+        "titleBackgroundColor": "#F97316",
+        "descriptionBackgroundColor": "#FFF3E0",
+        "order": 6,
+        "action": {
+          "type": "category",
+          "target": "category",
+          "config": {
+            "category": "eating-and-drinking-2",
+            "view": "grid",
+            "requireLogin": false
+          }
+        }
+      }
+    ],
+    "meta": {
+      "page": 1,
+      "limit": 20,
+      "total": 6,
+      "totalPages": 1,
+      "hasNextPage": false,
+      "hasPreviousPage": false
+    }
+  }
+}

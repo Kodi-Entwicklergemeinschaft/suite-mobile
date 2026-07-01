@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": "nav-home-001",
+      "slug": "home",
+      "label": "Home",
+      "nickname": "",
+      "iconUrl": "YOUR_ICON_URL",
+      "isEnabled": true,
+      "action": {
+        "type": "navigation",
+        "config": { "requireLogin": false },
+        "target": "home"
+      }
+    },
+    {
+      "id": "nav-search-001",
+      "slug": "search",
+      "label": "Search",
+      "nickname": "",
+      "iconUrl": "YOUR_ICON_URL",
+      "isEnabled": true,
+      "action": {
+        "type": "navigation",
+        "config": { "requireLogin": false },
+        "target": "search"
+      }
+    },
+    {
+      "id": "nav-fav-001",
+      "slug": "favourites",
+      "label": "Favourites",
+      "nickname": "",
+      "iconUrl": "YOUR_ICON_URL",
+      "isEnabled": true,
+      "action": {
+        "type": "navigation",
+        "config": { "requireLogin": false },
+        "target": "favourites"
+      }
+    }
+  ],
+  "message": "Bottom navigation configuration retrieved successfully",
+  "timestamp": "2026-06-29T00:00:00.000Z",
+  "path": "/api/app-config/bottom-nav",
+  "statusCode": 200
+}

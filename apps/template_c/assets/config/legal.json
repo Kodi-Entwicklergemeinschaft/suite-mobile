@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "data": [
+    {
+      "key": "privacy-policy",
+      "title": "Privacy Policy",
+      "action": {
+        "type": "url_webview",
+        "config": {
+          "url": "https://www.example.com/privacy",
+          "requireLogin": false
+        }
+      }
+    },
+    {
+      "key": "terms-of-use",
+      "title": "Terms of Service",
+      "action": {
+        "type": "url_webview",
+        "config": {
+          "url": "https://www.example.com/terms",
+          "requireLogin": false
+        }
+      }
+    },
+    {
+      "key": "imprint",
+      "title": "Legal Notice",
+      "action": {
+        "type": "url_webview",
+        "config": {
+          "url": "https://www.example.com/imprint",
+          "requireLogin": false
+        }
+      }
+    }
+  ],
+  "message": "Legal config fetched successfully",
+  "timestamp": "2026-06-29T00:00:00.000Z",
+  "path": "/api/app-config/legal",
+  "statusCode": 200
+}

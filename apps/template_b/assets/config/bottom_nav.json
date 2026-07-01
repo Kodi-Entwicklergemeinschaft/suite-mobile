@@ -1,0 +1,82 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": "019c5733-d75c-77ac-9865-3c20c5d43a43",
+      "slug": "home",
+      "label": "Dashboard",
+      "nickname": "",
+      "iconUrl": "YOUR_ICON_URL",
+      "isEnabled": true,
+      "action": {
+        "type": "navigation",
+        "config": { "requireLogin": false },
+        "target": "home"
+      }
+    },
+    {
+      "id": "019c5734-3523-705a-9f32-7e986182c22b",
+      "slug": "services",
+      "label": "Explore",
+      "nickname": "",
+      "iconUrl": "YOUR_ICON_URL",
+      "isEnabled": true,
+      "action": {
+        "type": "navigation",
+        "config": { "requireLogin": false },
+        "target": "services"
+      }
+    },
+    {
+      "id": "019c572c-3626-72ba-be11-af3b34e2cdc9",
+      "slug": "business-community",
+      "label": "Community",
+      "nickname": "",
+      "iconUrl": "YOUR_ICON_URL",
+      "isEnabled": true,
+      "action": {
+        "type": "url_webview",
+        "config": {
+          "url": "https://www.google.com",
+          "requireLogin": false,
+          "requireShortCode": false
+        },
+        "target": "business-community"
+      }
+    },
+    {
+      "id": "019c47ed-e172-7555-a12a-eceb71210dbf",
+      "slug": "job-matching",
+      "label": "Careers",
+      "nickname": "",
+      "iconUrl": "YOUR_ICON_URL",
+      "isEnabled": true,
+      "action": {
+        "type": "url_webview",
+        "config": {
+          "url": "https://www.google.com",
+          "requireLogin": false,
+          "requireShortCode": false
+        },
+        "target": "job-matching"
+      }
+    },
+    {
+      "id": "019c5732-ee40-75ef-b29d-b78cb110fb02",
+      "slug": "profile",
+      "label": "Account",
+      "nickname": "",
+      "iconUrl": "YOUR_ICON_URL",
+      "isEnabled": true,
+      "action": {
+        "type": "navigation",
+        "config": { "requireLogin": true },
+        "target": "profile"
+      }
+    }
+  ],
+  "message": "Bottom navigation configuration retrieved successfully",
+  "timestamp": "2026-06-24T06:27:16.402Z",
+  "path": "/api/app-config/bottom-nav?",
+  "statusCode": 200
+}

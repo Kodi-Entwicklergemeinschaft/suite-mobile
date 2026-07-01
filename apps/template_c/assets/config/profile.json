@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "data": {
+    "id": "open-source-user-001",
+    "username": "open_source_user",
+    "firstName": "Open",
+    "lastName": "Source",
+    "email": "user@example.com",
+    "avatarUrl": "YOUR_IMAGE_URL",
+    "website": "https://www.example.com",
+    "information": "This is a placeholder profile for open-source mode.",
+    "isActive": true,
+    "role": "user",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-06-01T00:00:00.000Z",
+    "favorites": {
+      "events": 0,
+      "organizer": 0
+    }
+  },
+  "message": "Profile fetched successfully",
+  "timestamp": "2026-06-29T00:00:00.000Z",
+  "path": "/api/users/profile",
+  "statusCode": 200
+}
