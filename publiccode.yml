@@ -1,0 +1,55 @@
+publiccodeYmlVersion: "0.4"
+
+name: "KODI Suite Mobile"
+url: "https://gitlab.opencode.de/kodi/suite-mobile"
+landingURL: "https://github.com/Kodi-Entwicklergemeinschaft/suite-mobile"
+softwareVersion: "1.0.0"
+releaseDate: "2026-07-01"
+developmentStatus: stable
+softwareType: standalone/mobile
+
+platforms:
+  - android
+  - ios
+
+categories:
+  - digital-citizenship
+
+description:
+  de:
+    genericName: "Kommunale Bürger-App"
+    shortDescription: >
+      Flutter-Monorepo mit drei White-Label-Bürger-App-Templates (A/B/C) und geteilten Paketen für kommunale Dienste (Android/iOS).
+    longDescription: >
+      Suite Mobile ist das quelloffene Flutter-Monorepo von KODI – Kommunen Digital, einer Plattform-Familie für digitale Bürgerdienste deutscher Kommunen. Es bündelt drei eigenständige, offline-fähige White-Label-App-Templates (Template A – City-Experience, Template B – Civic/Dashboard, Template C – Listings & Discovery) sowie geteilte Infrastrukturpakete (Netzwerk, Routing, Theme, Lokalisierung, Preference-Manager, wiederverwendbare Widgets). Über eine `.env`-Konfiguration wird ein Template mit einem KODI-Backend verbunden und als kommunale App betrieben. Die Software folgt dem Metadatenstandard publiccode.yml und ist über das openCode-Softwareverzeichnis auffindbar, damit andere Verwaltungen die Lösung nachnutzen und gemeinsam weiterentwickeln können.
+    features:
+      - Drei White-Label-App-Templates (A/B/C)
+      - Geteilte Pakete (Netzwerk, Routing, Theme, Lokalisierung)
+      - Offline-/Demo-Modus
+      - Nachnutzbar durch öffentliche Verwaltungen
+  en:
+    genericName: "Municipal citizen service"
+    shortDescription: >
+      Flutter monorepo with three white-label citizen-app templates (A/B/C) and shared packages for municipal services (Android/iOS).
+    longDescription: >
+      Suite Mobile is the open-source Flutter monorepo of KODI – Kommunen Digital, a platform family for digital citizen services of German municipalities. It bundles three standalone, offline-capable white-label app templates (Template A – city experience, Template B – civic/dashboard, Template C – listings & discovery) plus shared infrastructure packages (network, routing, theme, localisation, preference manager, reusable widgets). A template is connected to a KODI backend via an `.env` configuration and operated as a municipal app. The software follows the publiccode.yml metadata standard and is discoverable through the openCode software directory so that other administrations can reuse and jointly maintain the solution.
+    features:
+      - Three white-label app templates (A/B/C)
+      - Shared packages (network, routing, theme, localisation)
+      - Offline / demo mode
+      - Reusable by public administrations
+
+legal:
+  license: EUPL-1.2
+  repoOwner: "KODI – Kommunen Digital"
+
+maintenance:
+  type: community
+  contacts:
+    - name: "KODI Kommunen Digital"
+      email: "info@heidi-app.de"
+
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - de
