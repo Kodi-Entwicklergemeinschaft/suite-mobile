@@ -2,7 +2,7 @@ publiccodeYmlVersion: "0.4"
 
 name: "KODI Suite Mobile"
 url: "https://gitlab.opencode.de/kodi/suite-mobile"
-landingURL: "https://gitlab.opencode.de/kodi/suite-mobile"
+landingURL: "https://github.com/Kodi-Entwicklergemeinschaft"
 softwareVersion: "1.0.0"
 releaseDate: "2026-07-01"
 developmentStatus: stable
@@ -20,49 +20,41 @@ description:
     genericName: "Kommunale Bürger-App"
     shortDescription: >
       Flutter-Monorepo: erzeugt pro Kommune eine gebrandete White-Label-Bürger-App aus Templates A/B/C und Feature-Paketen (Android/iOS).
-    longDescription: >
+    longDescription: |
       KODI Suite Mobile ist das quelloffene Flutter-Monorepo von KODI – Kommunen Digital,
       einer Plattform-Familie für digitale Bürgerdienste deutscher Kommunen. Es ist der
       zentrale Einstiegspunkt ("Landing Repository") der KODI-Mobile-Familie: Apps werden
-      nicht von Hand geschrieben, sondern zur Build-Zeit erzeugt, indem ein UI-Template,
-      ein pro Kommune konfigurierter Funktionsumfang und geteilte Infrastrukturpakete
-      kombiniert werden. So lässt sich eine neue Kommune schnell und ohne bespoke-Entwicklung
-      anbinden.
+      nicht von Hand geschrieben, sondern zur Build-Zeit erzeugt, indem ein UI-Template, ein
+      pro Kommune konfigurierter Funktionsumfang und geteilte Infrastrukturpakete kombiniert
+      werden. So lässt sich eine neue Kommune schnell und ohne bespoke-Entwicklung anbinden.
 
+      **UI-Templates:** Template A (~7 Screens, minimale Basis), Template B (~19 Screens,
+      erweitert), Template C (18+ Screens, produktionsreif, offline-fähig, ProGuard).
 
-      UI-Templates: Template A (~7 Screens, minimale Basis), Template B (~19 Screens, erweitert),
-      Template C (18+ Screens, produktionsreif, offline-fähig, ProGuard). Injizierbare
-      Feature-Pakete: Abfallkalender (offline), Mängelmelder, Points of Interest,
-      Push-Benachrichtigungen. Geteilte Pakete: Netzwerk (Dio + Interceptors), Routing
-      (GoRouter), Theme (Material 3 White-Label), Lokalisierung, Preference-Manager
-      (Hive/SecureStorage), wiederverwendbare Widgets. Merkmale: konfigurationsgetriebenes
-      dynamisches Routing aus dem Backend-Feature-Set, Offline-Modus (Hive), Firebase Cloud
-      Messaging, Mehrsprachigkeit (DE/EN), keine hartkodierten Secrets.
+      **Injizierbare Feature-Pakete:** Abfallkalender (offline), Mängelmelder, Points of
+      Interest, Push-Benachrichtigungen.
 
+      **Geteilte Pakete:** Netzwerk (Dio + Interceptors), Routing (GoRouter), Theme
+      (Material 3 White-Label), Lokalisierung, Preference-Manager (Hive/SecureStorage),
+      wiederverwendbare Widgets.
+
+      **Merkmale:** konfigurationsgetriebenes dynamisches Routing aus dem Backend-Feature-Set,
+      Offline-Modus (Hive), Firebase Cloud Messaging, Mehrsprachigkeit (DE/EN), keine
+      hartkodierten Secrets.
 
       Die Software ist unter der EUPL-1.2 lizenziert, folgt dem Metadatenstandard
       publiccode.yml und ist über das openCode-Softwareverzeichnis auffindbar, damit andere
       Verwaltungen die Lösung nachnutzen und gemeinsam weiterentwickeln können.
 
+      ### Zugehörige KODI-Repositories
 
-      Zugehörige KODI-Repositories (Komponenten der Gesamtlösung, im Verzeichnis nicht separat
-      gelistet):
+      Komponenten der Gesamtlösung (im Verzeichnis nicht separat gelistet):
 
-
-      Backend: https://gitlab.opencode.de/kodi/kodi-backend-template-A ·
-      https://gitlab.opencode.de/kodi/kodi-backend-template-B ·
-      https://gitlab.opencode.de/kodi/kodi-backend-template-C ·
-      https://gitlab.opencode.de/kodi/kodi-backend-forum-template-B —
-      Web: https://gitlab.opencode.de/kodi/kodi-web-template-A ·
-      https://gitlab.opencode.de/kodi/kodi-web-template-C —
-      Mobile-Templates: https://gitlab.opencode.de/kodi/kodi-mobile-template-A ·
-      https://gitlab.opencode.de/kodi/kodi-mobile-template-B ·
-      https://gitlab.opencode.de/kodi/kodi-mobile-template-C —
-      Dienste: https://gitlab.opencode.de/kodi/kodi-api-scraper-template-C ·
-      https://gitlab.opencode.de/kodi/kodi-webscraper-template-C ·
-      https://gitlab.opencode.de/kodi/kodi-websocket-server-template-B ·
-      https://gitlab.opencode.de/kodi/kodi-delete-expired-listings-template-C —
-      Alle Repositories: https://gitlab.opencode.de/kodi
+      - **Backend:** [kodi-backend-template-A](https://gitlab.opencode.de/kodi/kodi-backend-template-A) · [kodi-backend-template-B](https://gitlab.opencode.de/kodi/kodi-backend-template-B) · [kodi-backend-template-C](https://gitlab.opencode.de/kodi/kodi-backend-template-C) · [kodi-backend-forum-template-B](https://gitlab.opencode.de/kodi/kodi-backend-forum-template-B)
+      - **Web:** [kodi-web-template-A](https://gitlab.opencode.de/kodi/kodi-web-template-A) · [kodi-web-template-C](https://gitlab.opencode.de/kodi/kodi-web-template-C)
+      - **Mobile-Templates:** [kodi-mobile-template-A](https://gitlab.opencode.de/kodi/kodi-mobile-template-A) · [kodi-mobile-template-B](https://gitlab.opencode.de/kodi/kodi-mobile-template-B) · [kodi-mobile-template-C](https://gitlab.opencode.de/kodi/kodi-mobile-template-C)
+      - **Dienste:** [kodi-api-scraper-template-C](https://gitlab.opencode.de/kodi/kodi-api-scraper-template-C) · [kodi-webscraper-template-C](https://gitlab.opencode.de/kodi/kodi-webscraper-template-C) · [kodi-websocket-server-template-B](https://gitlab.opencode.de/kodi/kodi-websocket-server-template-B) · [kodi-delete-expired-listings-template-C](https://gitlab.opencode.de/kodi/kodi-delete-expired-listings-template-C)
+      - **Alle Repositories:** [gitlab.opencode.de/kodi](https://gitlab.opencode.de/kodi)
     features:
       - Lokale Nachrichten, Einträge & Veranstaltungen
       - Points of Interest — Kartensuche, Clustering, Filter
@@ -80,7 +72,7 @@ description:
     genericName: "Municipal citizen service"
     shortDescription: >
       Flutter monorepo: generates a branded white-label citizen app per municipality from templates A/B/C and feature packages (Android/iOS).
-    longDescription: >
+    longDescription: |
       KODI Suite Mobile is the open-source Flutter monorepo of KODI – Kommunen Digital, a
       platform family for digital citizen services of German municipalities. It is the central
       entry point ("landing repository") of the KODI mobile family: apps are not hand-written
@@ -88,40 +80,31 @@ description:
       and shared infrastructure packages — so a new municipality can be onboarded rapidly with
       no bespoke development.
 
-
-      UI templates: Template A (~7 screens, minimal baseline), Template B (~19 screens,
+      **UI templates:** Template A (~7 screens, minimal baseline), Template B (~19 screens,
       extended), Template C (18+ screens, production-grade, offline-capable, ProGuard).
-      Injectable feature packages: waste calendar (offline), defect reporter, points of
-      interest, push notifications. Shared packages: network (Dio + interceptors), routing
-      (GoRouter), theme (Material 3 white-label), localisation, preference manager
-      (Hive/secure storage), reusable widgets. Characteristics: config-driven dynamic routing
-      from the backend feature set, offline mode (Hive), Firebase Cloud Messaging,
-      multi-language (DE/EN), no hardcoded secrets.
 
+      **Injectable feature packages:** waste calendar (offline), defect reporter, points of
+      interest, push notifications.
+
+      **Shared packages:** network (Dio + interceptors), routing (GoRouter), theme (Material 3
+      white-label), localisation, preference manager (Hive/secure storage), reusable widgets.
+
+      **Characteristics:** config-driven dynamic routing from the backend feature set, offline
+      mode (Hive), Firebase Cloud Messaging, multi-language (DE/EN), no hardcoded secrets.
 
       The software is licensed under the EUPL-1.2, follows the publiccode.yml metadata standard
       and is discoverable through the openCode software directory so that other administrations
       can reuse and jointly maintain the solution.
 
+      ### Related KODI repositories
 
-      Related KODI repositories (components of the overall solution, not listed separately in
-      the directory):
+      Components of the overall solution (not listed separately in the directory):
 
-
-      Backend: https://gitlab.opencode.de/kodi/kodi-backend-template-A ·
-      https://gitlab.opencode.de/kodi/kodi-backend-template-B ·
-      https://gitlab.opencode.de/kodi/kodi-backend-template-C ·
-      https://gitlab.opencode.de/kodi/kodi-backend-forum-template-B —
-      Web: https://gitlab.opencode.de/kodi/kodi-web-template-A ·
-      https://gitlab.opencode.de/kodi/kodi-web-template-C —
-      Mobile templates: https://gitlab.opencode.de/kodi/kodi-mobile-template-A ·
-      https://gitlab.opencode.de/kodi/kodi-mobile-template-B ·
-      https://gitlab.opencode.de/kodi/kodi-mobile-template-C —
-      Services: https://gitlab.opencode.de/kodi/kodi-api-scraper-template-C ·
-      https://gitlab.opencode.de/kodi/kodi-webscraper-template-C ·
-      https://gitlab.opencode.de/kodi/kodi-websocket-server-template-B ·
-      https://gitlab.opencode.de/kodi/kodi-delete-expired-listings-template-C —
-      All repositories: https://gitlab.opencode.de/kodi
+      - **Backend:** [kodi-backend-template-A](https://gitlab.opencode.de/kodi/kodi-backend-template-A) · [kodi-backend-template-B](https://gitlab.opencode.de/kodi/kodi-backend-template-B) · [kodi-backend-template-C](https://gitlab.opencode.de/kodi/kodi-backend-template-C) · [kodi-backend-forum-template-B](https://gitlab.opencode.de/kodi/kodi-backend-forum-template-B)
+      - **Web:** [kodi-web-template-A](https://gitlab.opencode.de/kodi/kodi-web-template-A) · [kodi-web-template-C](https://gitlab.opencode.de/kodi/kodi-web-template-C)
+      - **Mobile templates:** [kodi-mobile-template-A](https://gitlab.opencode.de/kodi/kodi-mobile-template-A) · [kodi-mobile-template-B](https://gitlab.opencode.de/kodi/kodi-mobile-template-B) · [kodi-mobile-template-C](https://gitlab.opencode.de/kodi/kodi-mobile-template-C)
+      - **Services:** [kodi-api-scraper-template-C](https://gitlab.opencode.de/kodi/kodi-api-scraper-template-C) · [kodi-webscraper-template-C](https://gitlab.opencode.de/kodi/kodi-webscraper-template-C) · [kodi-websocket-server-template-B](https://gitlab.opencode.de/kodi/kodi-websocket-server-template-B) · [kodi-delete-expired-listings-template-C](https://gitlab.opencode.de/kodi/kodi-delete-expired-listings-template-C)
+      - **All repositories:** [gitlab.opencode.de/kodi](https://gitlab.opencode.de/kodi)
     features:
       - Local news, listings & events
       - Points of interest — map discovery, clustering, filters
