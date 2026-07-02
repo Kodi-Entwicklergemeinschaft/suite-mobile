@@ -19,32 +19,34 @@ description:
   de:
     genericName: "Kommunale Bürger-App"
     shortDescription: >
-      Flutter-Monorepo: erzeugt pro Kommune eine gebrandete White-Label-Bürger-App aus Templates A/B/C und Feature-Paketen (Android/iOS).
+      Flutter-Monorepo: erzeugt je Kommune eine gebrandete White-Label-Bürger-App aus den Templates A/B/C und Funktionspaketen (Android/iOS).
     longDescription: |
       KODI Suite Mobile ist das quelloffene Flutter-Monorepo von KODI – Kommunen Digital,
-      einer Plattform-Familie für digitale Bürgerdienste deutscher Kommunen. Es ist der
-      zentrale Einstiegspunkt ("Landing Repository") der KODI-Mobile-Familie: Apps werden
-      nicht von Hand geschrieben, sondern zur Build-Zeit erzeugt, indem ein UI-Template, ein
-      pro Kommune konfigurierter Funktionsumfang und geteilte Infrastrukturpakete kombiniert
-      werden. So lässt sich eine neue Kommune schnell und ohne bespoke-Entwicklung anbinden.
+      einer Plattformfamilie für digitale Bürgerdienste deutscher Kommunen. Es ist der
+      zentrale Einstiegspunkt („Landing Repository") der KODI-Mobile-Familie: Die Apps
+      werden nicht einzeln von Hand entwickelt, sondern zur Build-Zeit erzeugt, indem ein
+      UI-Template, ein je Kommune konfigurierter Funktionsumfang und gemeinsam genutzte
+      Infrastrukturpakete kombiniert werden. So lässt sich eine neue Kommune schnell und
+      ohne Individualentwicklung anbinden.
 
-      **UI-Templates:** Template A (~7 Screens, minimale Basis), Template B (~19 Screens,
-      erweitert), Template C (18+ Screens, produktionsreif, offline-fähig, ProGuard).
+      **UI-Templates:** Template A (ca. 7 Screens, minimale Basis), Template B (ca. 19
+      Screens, erweitert), Template C (über 18 Screens, produktionsreif, offlinefähig,
+      ProGuard).
 
-      **Injizierbare Feature-Pakete:** Abfallkalender (offline), Mängelmelder, Points of
+      **Zuschaltbare Funktionspakete:** Abfallkalender (offline), Mängelmelder, Points of
       Interest, Push-Benachrichtigungen.
 
-      **Geteilte Pakete:** Netzwerk (Dio + Interceptors), Routing (GoRouter), Theme
-      (Material 3 White-Label), Lokalisierung, Preference-Manager (Hive/SecureStorage),
-      wiederverwendbare Widgets.
+      **Gemeinsam genutzte Pakete:** Netzwerk (Dio + Interceptors), Routing (GoRouter),
+      Theme (Material 3, White-Label), Lokalisierung, Preference-Manager
+      (Hive/SecureStorage), wiederverwendbare Widgets.
 
-      **Merkmale:** konfigurationsgetriebenes dynamisches Routing aus dem Backend-Feature-Set,
-      Offline-Modus (Hive), Firebase Cloud Messaging, Mehrsprachigkeit (DE/EN), keine
-      hartkodierten Secrets.
+      **Merkmale:** konfigurationsgesteuertes dynamisches Routing auf Basis des im Backend
+      hinterlegten Funktionsumfangs, Offline-Modus (Hive), Firebase Cloud Messaging,
+      Mehrsprachigkeit (DE/EN), keine im Code hinterlegten Secrets.
 
       Die Software ist unter der EUPL-1.2 lizenziert, folgt dem Metadatenstandard
-      publiccode.yml und ist über das openCode-Softwareverzeichnis auffindbar, damit andere
-      Verwaltungen die Lösung nachnutzen und gemeinsam weiterentwickeln können.
+      publiccode.yml und ist über das openCode-Softwareverzeichnis auffindbar, sodass
+      andere Verwaltungen die Lösung nachnutzen und gemeinsam weiterentwickeln können.
 
       ### Zugehörige KODI-Repositories
 
@@ -56,17 +58,17 @@ description:
       - **Dienste:** [kodi-api-scraper-template-C](https://gitlab.opencode.de/kodi/kodi-api-scraper-template-C) · [kodi-webscraper-template-C](https://gitlab.opencode.de/kodi/kodi-webscraper-template-C) · [kodi-websocket-server-template-B](https://gitlab.opencode.de/kodi/kodi-websocket-server-template-B) · [kodi-delete-expired-listings-template-C](https://gitlab.opencode.de/kodi/kodi-delete-expired-listings-template-C)
       - **Alle Repositories:** [gitlab.opencode.de/kodi](https://gitlab.opencode.de/kodi)
     features:
-      - Lokale Nachrichten, Einträge & Veranstaltungen
-      - Points of Interest — Kartensuche, Clustering, Filter
+      - Lokale Nachrichten, Einträge und Veranstaltungen
+      - Points of Interest — Kartenansicht mit Suche, Clustering und Filtern
       - Abfallkalender mit Erinnerungen (offline nutzbar)
-      - Mängelmelder — Meldung von Schäden mit Fotos an die Kommune
-      - Push-Benachrichtigungen (Firebase Cloud Messaging + lokal)
-      - Mehrsprachig (DE/EN)
+      - Mängelmelder — Schadensmeldungen mit Fotos direkt an die Kommune
+      - Push-Benachrichtigungen (Firebase Cloud Messaging und lokal)
+      - Mehrsprachigkeit (DE/EN)
       - Offline-Modus (Hive)
-      - White-Label-Branding & Theming pro Kommune
-      - Drei App-Templates (A/B/C) — bis 18+ Screens
-      - Konfigurationsgetriebene Generierung — gebrandete App pro Kommune, kein Code pro Stadt
-      - Geteilte Pakete — Netzwerk, Routing, Theme, Lokalisierung, Preference-Manager, Widgets
+      - White-Label-Branding und Theming je Kommune
+      - Drei App-Templates (A/B/C) mit 7 bis 19 Screens
+      - Konfigurationsgesteuerte Generierung — eigene gebrandete App je Kommune, ohne stadtspezifischen Code
+      - Gemeinsam genutzte Pakete — Netzwerk, Routing, Theme, Lokalisierung, Preference-Manager, Widgets
       - Nachnutzbar durch öffentliche Verwaltungen (EUPL-1.2)
   en:
     genericName: "Municipal citizen service"
