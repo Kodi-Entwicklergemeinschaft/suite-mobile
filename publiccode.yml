@@ -2,7 +2,7 @@ publiccodeYmlVersion: "0.4"
 
 name: "KODI Suite Mobile"
 url: "https://gitlab.opencode.de/kodi/suite-mobile"
-landingURL: "https://github.com/Kodi-Entwicklergemeinschaft"
+landingURL: "https://gitlab.opencode.de/kodi"
 softwareVersion: "1.0.0"
 releaseDate: "2026-07-01"
 developmentStatus: stable
