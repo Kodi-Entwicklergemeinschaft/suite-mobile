@@ -64,13 +64,17 @@ description:
       https://gitlab.opencode.de/kodi/kodi-delete-expired-listings-template-C —
       Alle Repositories: https://gitlab.opencode.de/kodi
     features:
-      - Drei White-Label-App-Templates (A/B/C) — bis 18+ Screens, Template C offline-fähig
-      - Konfigurationsgetriebene White-Label-Generierung (gebrandete App pro Kommune, kein Code pro Stadt)
-      - Injizierbare Feature-Pakete — Abfallkalender (offline), Mängelmelder, Points of Interest, Push
-      - Geteilte Pakete — Netzwerk, Routing, Theme (Material 3), Lokalisierung, Preference-Manager, Widgets
-      - Offline-Modus (Hive) und dynamisches Routing aus dem Backend-Feature-Set
-      - Firebase Cloud Messaging + lokale Benachrichtigungen
+      - Lokale Nachrichten, Einträge & Veranstaltungen
+      - Points of Interest — Kartensuche, Clustering, Filter
+      - Abfallkalender mit Erinnerungen (offline nutzbar)
+      - Mängelmelder — Meldung von Schäden mit Fotos an die Kommune
+      - Push-Benachrichtigungen (Firebase Cloud Messaging + lokal)
       - Mehrsprachig (DE/EN)
+      - Offline-Modus (Hive)
+      - White-Label-Branding & Theming pro Kommune
+      - Drei App-Templates (A/B/C) — bis 18+ Screens
+      - Konfigurationsgetriebene Generierung — gebrandete App pro Kommune, kein Code pro Stadt
+      - Geteilte Pakete — Netzwerk, Routing, Theme, Lokalisierung, Preference-Manager, Widgets
       - Nachnutzbar durch öffentliche Verwaltungen (EUPL-1.2)
   en:
     genericName: "Municipal citizen service"
@@ -119,13 +123,17 @@ description:
       https://gitlab.opencode.de/kodi/kodi-delete-expired-listings-template-C —
       All repositories: https://gitlab.opencode.de/kodi
     features:
-      - Three white-label app templates (A/B/C) — up to 18+ screens, template C offline-capable
-      - Config-driven white-label generation (branded app per municipality, no per-city code)
-      - Injectable feature packages — waste calendar (offline), defect reporter, points of interest, push
-      - Shared packages — network, routing, theme (Material 3), localisation, preference manager, widgets
-      - Offline mode (Hive) and dynamic routing from the backend feature set
-      - Firebase Cloud Messaging + local notifications
+      - Local news, listings & events
+      - Points of interest — map discovery, clustering, filters
+      - Waste calendar with reminders (works offline)
+      - Defect reporter — photo-based issue reports to the municipality
+      - Push notifications (Firebase Cloud Messaging + local)
       - Multi-language (DE/EN)
+      - Offline mode (Hive)
+      - White-label branding & theming per municipality
+      - Three app templates (A/B/C) — up to 18+ screens
+      - Config-driven generation — branded app per municipality, no per-city code
+      - Shared packages — network, routing, theme, localisation, preference manager, widgets
       - Reusable by public administrations (EUPL-1.2)
 
 legal:
