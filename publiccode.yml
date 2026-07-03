@@ -1,7 +1,7 @@
 publiccodeYmlVersion: "0.4"
 
 name: "KODI Suite Mobile"
-url: "https://github.com/Kodi-Entwicklergemeinschaft/suite-mobile"
+url: "https://github.com/Kodi-Entwicklergemeinschaft/.github"
 softwareVersion: "1.0.0"
 releaseDate: "2026-07-03"
 developmentStatus: stable
