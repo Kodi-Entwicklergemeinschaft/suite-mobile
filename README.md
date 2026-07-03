@@ -8,15 +8,16 @@ A Flutter monorepo containing three white-label app templates and a set of share
 
 1. [Repository Structure](#repository-structure)
 2. [Templates Overview](#templates-overview)
-3. [Shared Packages](#shared-packages)
-4. [Prerequisites](#prerequisites)
-5. [Getting Started](#getting-started)
-6. [Environment Configuration](#environment-configuration)
-7. [Running a Template](#running-a-template)
-8. [Offline / Demo Mode](#offline--demo-mode)
-9. [Adding a New Template](#adding-a-new-template)
-10. [Architecture Overview](#architecture-overview)
-11. [Key Dependencies](#key-dependencies)
+3. [Screenshots](#screenshots)
+4. [Shared Packages](#shared-packages)
+5. [Prerequisites](#prerequisites)
+6. [Getting Started](#getting-started)
+7. [Environment Configuration](#environment-configuration)
+8. [Running a Template](#running-a-template)
+9. [Offline / Demo Mode](#offline--demo-mode)
+10. [Adding a New Template](#adding-a-new-template)
+11. [Architecture Overview](#architecture-overview)
+12. [Key Dependencies](#key-dependencies)
 
 ---
 
@@ -143,6 +144,38 @@ A full listings and discovery app with event listings, map view, interest-based 
 | `profile.json` | User profile seed data |
 | `theme.json` | App theme overrides |
 | `bottom_nav.json` | Bottom navigation config |
+
+---
+
+## Screenshots
+
+All screenshots show the templates running with the bundled demo configuration (placeholder content and images) — every label, color and image is white-label configurable per municipality.
+
+### Template A — City Experience
+
+| Home feed | Discover | Events | Event detail |
+|---|---|---|---|
+| ![Home feed](docs/screenshots/template_a/01-home-feed.png) | ![Discover](docs/screenshots/template_a/03-discover.png) | ![Events](docs/screenshots/template_a/04-events.png) | ![Event detail](docs/screenshots/template_a/05-event-detail.png) |
+
+| Home sections | Event filter | Settings |
+|---|---|---|
+| ![Home sections](docs/screenshots/template_a/02-home-sections.png) | ![Event filter](docs/screenshots/template_a/06-event-filter.png) | ![Settings](docs/screenshots/template_a/07-settings.png) |
+
+### Template B — Civic / Dashboard
+
+| Dashboard | News | Services | Contact |
+|---|---|---|---|
+| ![Dashboard](docs/screenshots/template_b/01-dashboard.png) | ![News](docs/screenshots/template_b/02-news.png) | ![Services](docs/screenshots/template_b/03-services.png) | ![Contact](docs/screenshots/template_b/04-contact.png) |
+
+### Template C — Listings & Discovery
+
+| Welcome | Location | Home | Today's events |
+|---|---|---|---|
+| ![Welcome](docs/screenshots/template_c/01-welcome.png) | ![Location](docs/screenshots/template_c/02-location.png) | ![Home](docs/screenshots/template_c/03-home-kultur.png) | ![Today's events](docs/screenshots/template_c/04-events-today.png) |
+
+| Search & filter | Event detail | Profile |
+|---|---|---|
+| ![Search & filter](docs/screenshots/template_c/05-search-filter.png) | ![Event detail](docs/screenshots/template_c/06-event-detail.png) | ![Profile](docs/screenshots/template_c/07-profile.png) |
 
 ---
 

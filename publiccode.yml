@@ -70,6 +70,15 @@ description:
       - Konfigurationsgesteuerte Generierung — eigene gebrandete App je Kommune, ohne stadtspezifischen Code
       - Gemeinsam genutzte Pakete — Netzwerk, Routing, Theme, Lokalisierung, Preference-Manager, Widgets
       - Nachnutzbar durch öffentliche Verwaltungen (EUPL-1.2)
+    screenshots:
+      - https://gitlab.opencode.de/kodi/suite-mobile/-/raw/main/docs/screenshots/template_a/01-home-feed.png
+      - https://gitlab.opencode.de/kodi/suite-mobile/-/raw/main/docs/screenshots/template_a/03-discover.png
+      - https://gitlab.opencode.de/kodi/suite-mobile/-/raw/main/docs/screenshots/template_a/05-event-detail.png
+      - https://gitlab.opencode.de/kodi/suite-mobile/-/raw/main/docs/screenshots/template_b/01-dashboard.png
+      - https://gitlab.opencode.de/kodi/suite-mobile/-/raw/main/docs/screenshots/template_b/02-news.png
+      - https://gitlab.opencode.de/kodi/suite-mobile/-/raw/main/docs/screenshots/template_c/01-welcome.png
+      - https://gitlab.opencode.de/kodi/suite-mobile/-/raw/main/docs/screenshots/template_c/03-home-kultur.png
+      - https://gitlab.opencode.de/kodi/suite-mobile/-/raw/main/docs/screenshots/template_c/06-event-detail.png
   en:
     genericName: "Municipal citizen service"
     shortDescription: >
@@ -120,6 +129,15 @@ description:
       - Config-driven generation — branded app per municipality, no per-city code
       - Shared packages — network, routing, theme, localisation, preference manager, widgets
       - Reusable by public administrations (EUPL-1.2)
+    screenshots:
+      - https://gitlab.opencode.de/kodi/suite-mobile/-/raw/main/docs/screenshots/template_a/01-home-feed.png
+      - https://gitlab.opencode.de/kodi/suite-mobile/-/raw/main/docs/screenshots/template_a/03-discover.png
+      - https://gitlab.opencode.de/kodi/suite-mobile/-/raw/main/docs/screenshots/template_a/05-event-detail.png
+      - https://gitlab.opencode.de/kodi/suite-mobile/-/raw/main/docs/screenshots/template_b/01-dashboard.png
+      - https://gitlab.opencode.de/kodi/suite-mobile/-/raw/main/docs/screenshots/template_b/02-news.png
+      - https://gitlab.opencode.de/kodi/suite-mobile/-/raw/main/docs/screenshots/template_c/01-welcome.png
+      - https://gitlab.opencode.de/kodi/suite-mobile/-/raw/main/docs/screenshots/template_c/03-home-kultur.png
+      - https://gitlab.opencode.de/kodi/suite-mobile/-/raw/main/docs/screenshots/template_c/06-event-detail.png
 
 legal:
   license: EUPL-1.2
