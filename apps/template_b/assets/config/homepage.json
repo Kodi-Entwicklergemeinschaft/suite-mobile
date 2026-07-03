@@ -11,7 +11,7 @@
         "data": {
           "label": "App Header Image",
           "description": "Application branding and logo display",
-          "image": "YOUR_IMAGE_URL"
+          "image": "https://images.unsplash.com/photo-1749250470571-384500e0d8c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNpdHklMjBzZXJ2aWNlfGVufDB8fDB8fHww"
         }
       },
       {
@@ -40,8 +40,8 @@
               "label": "News",
               "subtitle": "News",
               "description": "News is the ",
-              "icon": "YOUR_IMAGE_URL",
-              "image": "YOUR_IMAGE_URL",
+              "icon": "https://images.unsplash.com/photo-1749250470571-384500e0d8c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNpdHklMjBzZXJ2aWNlfGVufDB8fDB8fHww",
+              "image": "https://images.unsplash.com/photo-1749250470571-384500e0d8c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNpdHklMjBzZXJ2aWNlfGVufDB8fDB8fHww",
               "titleBackgroundColor": "#9b8c8c",
               "descriptionBackgroundColor": "#b09292",
               "action": {
@@ -61,8 +61,8 @@
               "label": "Events",
               "subtitle": "Events",
               "description": "Following are events",
-              "icon": "YOUR_IMAGE_URL",
-              "image": "YOUR_IMAGE_URL",
+              "icon": "https://images.unsplash.com/photo-1749250470571-384500e0d8c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNpdHklMjBzZXJ2aWNlfGVufDB8fDB8fHww",
+              "image": "https://images.unsplash.com/photo-1749250470571-384500e0d8c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNpdHklMjBzZXJ2aWNlfGVufDB8fDB8fHww",
               "titleBackgroundColor": "#322f2f",
               "descriptionBackgroundColor": "#131111",
               "action": {
@@ -82,8 +82,8 @@
               "label": "Contact",
               "subtitle": "Get in touch",
               "description": "Contact",
-              "icon": "YOUR_IMAGE_URL",
-              "image": "YOUR_IMAGE_URL",
+              "icon": "https://images.unsplash.com/photo-1749250470571-384500e0d8c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNpdHklMjBzZXJ2aWNlfGVufDB8fDB8fHww",
+              "image": "https://images.unsplash.com/photo-1749250470571-384500e0d8c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNpdHklMjBzZXJ2aWNlfGVufDB8fDB8fHww",
               "titleBackgroundColor": null,
               "descriptionBackgroundColor": null,
               "action": {
@@ -109,8 +109,8 @@
           "title": "News",
           "subtitle": "News",
           "source": "news",
-          "icon": "YOUR_IMAGE_URL",
-          "image": "YOUR_IMAGE_URL",
+          "icon": "https://images.unsplash.com/photo-1749250470571-384500e0d8c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNpdHklMjBzZXJ2aWNlfGVufDB8fDB8fHww",
+          "image": "https://images.unsplash.com/photo-1749250470571-384500e0d8c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNpdHklMjBzZXJ2aWNlfGVufDB8fDB8fHww",
           "action": {
             "type": "category",
             "config": {
@@ -138,7 +138,7 @@
             {
               "id": "019ef47f-25a3-731d-b68f-a60cfbb6535f",
               "label": "Funding Partners",
-              "image": "YOUR_IMAGE_URL",
+              "image": "https://images.unsplash.com/photo-1749250470571-384500e0d8c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNpdHklMjBzZXJ2aWNlfGVufDB8fDB8fHww",
               "action": {
                 "type": "url_webview",
                 "config": { "url": "", "requireLogin": false }
@@ -147,7 +147,7 @@
             {
               "id": "019ef481-3f04-741a-b85e-6810ed79cb25",
               "label": "Funding Partners",
-              "image": "YOUR_IMAGE_URL",
+              "image": "https://images.unsplash.com/photo-1749250470571-384500e0d8c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNpdHklMjBzZXJ2aWNlfGVufDB8fDB8fHww",
               "action": {
                 "type": "url_webview",
                 "config": {
@@ -159,7 +159,7 @@
             {
               "id": "019ef485-b5b5-72c9-9641-35bc5a567dbc",
               "label": "Funding Partners",
-              "image": "YOUR_IMAGE_URL",
+              "image": "https://images.unsplash.com/photo-1749250470571-384500e0d8c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNpdHklMjBzZXJ2aWNlfGVufDB8fDB8fHww",
               "action": {
                 "type": "url_webview",
                 "config": {

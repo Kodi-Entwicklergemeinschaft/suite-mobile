@@ -34,12 +34,6 @@ class ListingRepositoryImpl implements ListingRepository {
     return 'assets/config/listings.json';
   }
 
-  ListingModel _stripImages(ListingModel item) =>
-      item.copyWith(heroImageUrl: '', categoryFallbackImage: '');
-
-  ListingResponseModel _stripResponseImages(ListingResponseModel resp) =>
-      resp.copyWith(items: resp.items?.map(_stripImages).toList());
-
   Future<List<ListingModel>> _allLocalItems() async {
     final assets = [
       'assets/config/listings.json',
@@ -55,9 +49,7 @@ class ListingRepositoryImpl implements ListingRepository {
       final data = json.decode(jsonStr) as Map<String, dynamic>;
       final list = (data['data']?['items'] as List?) ?? [];
       for (final e in list) {
-        final item = _stripImages(
-          ListingModel().fromJson(e as Map<String, dynamic>),
-        );
+        final item = ListingModel().fromJson(e as Map<String, dynamic>);
         if (item.id != null && seen.add(item.id!)) items.add(item);
       }
     }
@@ -72,7 +64,7 @@ class ListingRepositoryImpl implements ListingRepository {
       final asset = _localAssetForFilter(filter);
       final jsonStr = await rootBundle.loadString(asset);
       final data = json.decode(jsonStr) as Map<String, dynamic>;
-      return Right(_stripResponseImages(ListingResponseModel().fromJson(data)));
+      return Right(ListingResponseModel().fromJson(data));
     }
     final result = await _apiHelper.getRequest<ListingResponseModel>(
       path: '/api/listings',

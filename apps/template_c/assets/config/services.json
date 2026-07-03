@@ -14,8 +14,8 @@
         "label": "Sample Service",
         "subtitle": "A sample service entry",
         "description": "Replace this with your actual service",
-        "icon": "YOUR_IMAGE_URL",
-        "image": "YOUR_IMAGE_URL",
+        "icon": "https://images.unsplash.com/photo-1749250470571-384500e0d8c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNpdHklMjBzZXJ2aWNlfGVufDB8fDB8fHww",
+        "image": "https://images.unsplash.com/photo-1749250470571-384500e0d8c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNpdHklMjBzZXJ2aWNlfGVufDB8fDB8fHww",
         "titleBackgroundColor": "#3498DB",
         "descriptionBackgroundColor": "#FFFFFF",
         "action": {

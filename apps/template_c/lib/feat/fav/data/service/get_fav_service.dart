@@ -33,10 +33,7 @@ class GetFavService {
     final list = (data['data']?['items'] as List?) ?? [];
     return list
         .take(3)
-        .map((e) => ListingModel().fromJson(e as Map<String, dynamic>).copyWith(
-              heroImageUrl: '',
-              categoryFallbackImage: '',
-            ))
+        .map((e) => ListingModel().fromJson(e as Map<String, dynamic>))
         .toList();
   }
 
