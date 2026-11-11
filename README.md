@@ -149,7 +149,7 @@ A full listings and discovery app with event listings, map view, interest-based 
 
 ## Screenshots
 
-All screenshots show the templates running with the bundled demo configuration (placeholder content and images) — every label, color and image is white-label configurable per municipality.
+ All screenshots show the templates running in offline / demo mode with the bundled sample configuration for the fictional city "Musterstadt". Every label, colour, image and icon is white-label configurable per municipality.
 
 ### Template A — City Experience
 
